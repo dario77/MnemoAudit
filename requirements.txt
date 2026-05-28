@@ -1,0 +1,12 @@
+# Runtime dependencies for cyberchef_btc.py
+# Install with:
+#   python3 -m pip install -r requirements.txt
+
+requests>=2.31.0
+tqdm>=4.66.0
+cryptography>=42.0.0
+
+# Bitcoin/secp256k1 backend.
+# The script prefers coincurve for speed/correctness and falls back to ecdsa.
+coincurve>=18.0.0
+ecdsa>=0.18.0
